@@ -1,0 +1,13 @@
+todos os elementos serao exibidos em um espaço (uma area) retangular - o posicionamento dos elementos dentro de uma pagina segue uma regra padrao definida pelo navegador, essa posição podera ser ajustada pelo css
+
+obs - para determinação de varios elementos em sequencia seguimos o sentido horario e começamos por cima
+obs2 - o view port é como é chamado o limite de linha na pagina
+
+o box model define o espaco final que o elemento vai ocuoar na pagina e ele é composto por:
+ * borda: delimita o espaço reservado para um conteudo
+ * padding: define o espaçamento entre a borda e o contenudo
+ * marging: é a distancia entre dois elementos (margem), espaço adicionado depois da borda
+
+existem elementos chamados elemento de linha: favorece a criação horizontal, podemos escrever varios desses elementos na mesma linha
+existem ainda elementos  de bloco: favorecem a criação vertical, um elemento de bloco ocupa toda uma linha, como é o caso de um h1
+

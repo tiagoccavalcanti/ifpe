@@ -1,0 +1,7 @@
+img{
+    /* a altura e a largura  determinam o espaço reservado para uma ou para todas as imagens que estarao no arquivo */
+    width: 300px ;
+    height: 300px ;
+    object-fit: fill;
+    /* o object fit sera respondavel por redimensionar ou nao a imagem no espaço reservado para ela, existem varios tipos - olhar depois */
+}
