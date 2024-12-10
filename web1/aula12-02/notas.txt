@@ -1,0 +1,5 @@
+    o professor usa ent deve ser bom, sao todos gratis e tal
+
+    para manipular imagem usamos o gimp
+    para vetores usamos o inkscape
+    para diagramas drawio
