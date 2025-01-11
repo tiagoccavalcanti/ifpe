@@ -1,0 +1,363 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "work Sans", serif;
+    color: white ;
+    box-sizing: border-box;
+}
+
+body {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 20px;
+    
+}
+
+.mainContent{
+    display: flex;
+    flex-direction: column;
+    height: 948px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    height: 808px;
+    padding: 100px;
+    position: relative;
+}
+.hero::before{
+    content: "";
+    height: 808px;
+    position: absolute;
+    width: 100%;
+    background-image: url(./images/hero.png);
+    background-size: cover;
+    transform:scaleX(-1);
+    z-index: -1;
+    top: 0px;
+    right: 0px;
+}
+
+.heroText{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+.hero h1{
+    font-size: 56px;
+    justify-self: center;
+}
+
+.nav{
+    width: 1242px;
+    height: 46px;
+    display: flex;
+    font-size: 18px;
+    justify-content: space-between;
+}
+.nav ul{
+    display:flex;
+    align-items: center;
+    flex-grow: 0.5;
+    justify-content: space-between;
+
+}
+li{
+    list-style: none;
+}
+
+.alert{
+    display: flex;
+    flex-direction: column;
+    width: 1264px;
+    height: 280px;
+    align-self: center;
+    background-image: url(./images/alert.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    text-align: center;
+}
+.alert h1{
+    font-size: 46px;
+}
+.alert p{
+    font-size: 24px;
+    margin: 20px;
+}
+.alert button{
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+    background-color: #ff753a;
+    border-radius: 30px;
+}
+
+.newProducts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.popularFinds{
+    width: 1440px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #eaeaea;
+    margin: 100px 0 100px 0 ;
+}
+
+.gearHeads{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.sectionHeader{
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    position:relative;
+    padding-bottom: 50px;
+}
+.sectionHeader h1{
+    margin-top: 30px;
+    color: black;
+}.sectionHeader::before{
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 50% -60px;
+    width: 120px;
+    height: 5px;
+    background-color: #ab0433;
+    border-radius: 5px;
+}
+
+.cards{
+    width: 1264px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.newCard{
+    flex-grow: 1;
+}
+.newCardImg {
+    background-image: url(./images/back_products.png);
+    background-position: bottom;
+    background-size: 100% 93%;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.popularCard{
+    flex-grow: 1;
+    background-image: url(./images/back_finds.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.popularCardImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gearCard{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    border-radius: 10px;
+}
+.topcards{
+    height: 700px;
+}
+.bottomcards{
+    height: 700px;
+}
+.imageInfo{
+    width: 100%;
+    height: 100px;
+}
+.gearCard1{
+    background-color: #252525;
+    color: white;
+}.gearCard1 .gearCardImg{
+    height: 600px;
+    background-image: url(./images/article_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.gearCard2{
+    background-color: #eaeaea;
+}
+.gearCard2 .gearCardImg{
+    height: 600px;
+    background-image: url(./images/article_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -70px;
+    
+}
+
+.gearCard3{
+    background-color: #252525;
+}
+.gearCard3 .gearCardImg{
+    height: 600px;
+    background-image: url(./images/article_3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.gearCard4{
+    background-color: #eaeaea;
+}
+.gearCard4 .gearCardImg{
+    height: 600px;
+    background-image: url(./images/article_4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.gearCard5{
+    background-color: #252525;
+}
+.gearCard5 .gearCardImg{
+    height: 600px;
+    background-image: url(./images/article_5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.productInfo{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.productInfo h1{
+    color: black;
+    font-size: 18px;
+}
+.productInfo p{
+    padding-bottom: 25px;
+    color: black;
+    font-size: 18px;
+}
+.productInfo button{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    font-size: 12px;
+    height: 15px;
+    border-radius: 50px;
+}
+
+.imageInfo{
+    padding: 30px;
+}
+.gearCard1 .imageInfo h1{
+    color: white;
+    font-size: 18px;
+}
+.gearCard1 .imageInfo p{
+    color: white;
+    font-size: 16px;
+}
+
+.gearCard2 .imageInfo h1{
+    color: black;
+    font-size: 18px;
+}
+.gearCard2 .imageInfo p{
+    color: black;
+    font-size: 16px;
+}
+
+.gearCard3 .imageInfo h1{
+    color: white;
+    font-size: 18px;
+}
+.gearCard3 .imageInfo p{
+    color: white;
+    font-size: 16px;
+}
+
+.gearCard4 .imageInfo h1{
+    color: black;
+    font-size: 18px;
+}
+.gearCard4 .imageInfo p{
+    color: black;
+    font-size: 16px;
+}
+
+.gearCard5 .imageInfo h1{
+    color: white;
+    font-size: 18px;
+}
+.gearCard5 .imageInfo p{
+    color: white;
+    font-size: 16px;
+}
+
+.footer{
+    margin-top: 50px;
+    width: 1440px;
+    height: 300px;
+    background-color: #505050;
+    display: flex;
+    flex-direction: column;
+}
+.footerLinks{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px 0px 50px;
+}
+.footerLinks ul{
+    line-height: 25px;
+    font-size: 14px;
+    position: relative;
+}
+.footerLinks ul::before{
+    position: absolute;
+    content: "";
+    top: -10px;
+    width: 60px;
+    height: 4px;
+    background-color: white;
+    border-radius: 5px;
+}
+.footerLists{
+    display: flex;
+    gap: 30px;
+}
+.lastLine{
+    background-color: #252525;
+}
+.lastLine p{
+    font-size: 13px;
+    color: #eaeaea;
+    padding: 10px 80px;
+}
