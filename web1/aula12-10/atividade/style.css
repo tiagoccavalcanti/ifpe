@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+}.navList ul{
+    display: flex;
+    list-style-type: none;
+
+}
+
+.main{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    padding: 20px 100px;
+}.redes{
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+}
+
+.footer{
+    width: 100vw;
+    background-color: green;
+    color: white;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: right;
+}.footer ul{
+    display: flex;
+}
