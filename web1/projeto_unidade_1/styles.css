@@ -26,7 +26,7 @@ header{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     background-blend-mode:darken;
 }
 nav{
@@ -40,7 +40,7 @@ nav{
     font-size: 24px;
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
 }
 .navList{
     display: flex;
@@ -93,6 +93,7 @@ main{
     width: 800px;
     gap: 35px;
     font-size: 16px;
+    line-height: 30px;
     text-align: center;
 }
 main h1{
@@ -148,6 +149,7 @@ img{
     flex-direction: column;
     gap: 25px;
     font-size: 16px;
+    line-height: 30px;
 }
 .card h1{
     font-size: 20px;
@@ -168,6 +170,7 @@ img{
     flex-direction: column;
     gap: 50px;
     font-size: 16px;
+    line-height: 30px;
     margin-top: 35px;
     margin-bottom: 50px;
 }
@@ -194,12 +197,12 @@ form {
     gap: 20px;
 }
 form #email{
-    padding: 10px;
-    font-size: 16px;
+    padding: 15px;
+    font-size: 20px;
     flex-grow: 0.7;
 }
 form #inscreverAgora{
-    font-size: 16px;
+    font-size: 20px;
     flex-grow: 0.3;
     color: white;
     background-color: #00420c;
