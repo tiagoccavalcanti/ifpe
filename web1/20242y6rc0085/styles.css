@@ -22,12 +22,10 @@ header{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: url(./images/hero_tads.jpg);
+    background-image:linear-gradient(rgba(96,96,96,0.55), rgba(91,91,91,0.5)), url(./images/hero_tads.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.7);
-    background-blend-mode:darken;
 }
 nav{
     padding: 0px 100px;
@@ -36,7 +34,7 @@ nav{
     justify-content: space-between;
 }
 .navLogo{
-    color: white;
+    color: #ffffff;
     font-size: 24px;
     display: flex;
     align-items: center;
@@ -45,10 +43,11 @@ nav{
 .navList{
     display: flex;
     list-style-type: none;
+    font-size: 16px;
     gap: 20px;
 }
 a{
-    color: white;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -58,14 +57,13 @@ a{
     justify-content: center;
     text-align: center;
     flex-grow: 1;
-    color: white;
+    color: #ffffff;
     gap: 15px;
 }
 .hero h1{
     font-size: 60px;
 }
 .hero p{
-    margin: 15px;
     font-size: 28px;
 }
 .hero button{
@@ -76,7 +74,7 @@ a{
 }
 
 
-    /* global */
+    /*generico */
 section{
     width: 100%;
     padding: 125px 0px;
@@ -106,8 +104,8 @@ main hr{
 }
 
 
-        /* area de atuação */
-.areaDeAtuacao{
+    /* area de atuação */
+#areaDeAtuacao{
     background-color: #ffffff;
 }
 .images{
@@ -132,7 +130,7 @@ img{
 
 
     /* destaque */
-.destaque{
+#destaque{
     background-color: #e9e2e2;
 }
 
@@ -140,7 +138,6 @@ img{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-
 }
 .card{
     text-align: center;
@@ -160,7 +157,7 @@ img{
 
 
     /* mercado de trabalho */
-.mercadoDeTrabalho{
+#mercadoDeTrabalho{
     background-color: #ffffff;
     gap: 0px;
 }
@@ -188,7 +185,7 @@ img{
 
 
     /* receba novidades */
-.recebaNovidades{
+#recebaNovidades{
     background-color: #e9e2e2;
 }
 form {
@@ -208,7 +205,6 @@ form #inscreverAgora{
     background-color: #00420c;
 }
 
-
     
     /* footer */
 footer{
@@ -221,7 +217,8 @@ footer{
 }
 footer p{
     color: white;
+    font-weight: 100;
 }
 footer span{
-    font-weight: bold;
+    font-weight: 500;
 }
